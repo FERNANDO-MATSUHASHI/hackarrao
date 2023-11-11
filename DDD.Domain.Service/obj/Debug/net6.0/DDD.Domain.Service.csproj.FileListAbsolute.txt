@@ -1,0 +1,17 @@
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\bin\Debug\net6.0\DDD.Domain.Service.deps.json
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\bin\Debug\net6.0\DDD.Domain.Service.dll
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\bin\Debug\net6.0\DDD.Domain.Service.pdb
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\bin\Debug\net6.0\DDD.Domain.dll
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\bin\Debug\net6.0\DDD.Infra.SQLServer.dll
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\bin\Debug\net6.0\DDD.Infra.SQLServer.pdb
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\bin\Debug\net6.0\DDD.Domain.pdb
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\DDD.Domain.Service.csproj.AssemblyReference.cache
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\DDD.Domain.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\DDD.Domain.Service.AssemblyInfoInputs.cache
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\DDD.Domain.Service.AssemblyInfo.cs
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\DDD.Domain.Service.csproj.CoreCompileInputs.cache
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\DDD.Domain.Service.csproj.CopyComplete
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\DDD.Domain.Service.dll
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\refint\DDD.Domain.Service.dll
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\DDD.Domain.Service.pdb
+C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Domain.Service\obj\Debug\net6.0\ref\DDD.Domain.Service.dll
