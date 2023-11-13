@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain.Service\\DDD.Domain.Service.csproj": {
+    "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain.Service\\DDD.Domain.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain.Service\\DDD.Domain.Service.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain.Service\\DDD.Domain.Service.csproj",
         "projectName": "DDD.Domain.Service",
-        "projectPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain.Service\\DDD.Domain.Service.csproj",
-        "packagesPath": "C:\\Users\\noteb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain.Service\\obj\\",
+        "projectPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain.Service\\DDD.Domain.Service.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\noteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {
-                "projectPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj"
+              "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {
+                "projectPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj"
               }
             }
           }
@@ -64,25 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj": {
+    "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain\\DDD.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain\\DDD.Domain.csproj",
         "projectName": "DDD.Domain",
-        "projectPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj",
-        "packagesPath": "C:\\Users\\noteb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain\\obj\\",
+        "projectPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain\\DDD.Domain.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\noteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +81,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -124,25 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {
+    "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
         "projectName": "DDD.Infra.SQLServer",
-        "projectPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
-        "packagesPath": "C:\\Users\\noteb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\obj\\",
+        "projectPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Infra.SQLServer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\noteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,15 +136,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj": {
-                "projectPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj"
+              "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain\\DDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain\\DDD.Domain.csproj"
               }
             }
           }
@@ -206,25 +191,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\TestProject\\TestProject.csproj",
-        "packagesPath": "C:\\Users\\noteb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\TestProject\\obj\\",
+        "projectPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\TestProject\\TestProject.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\noteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,15 +213,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain.Service\\DDD.Domain.Service.csproj": {
-                "projectPath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Domain.Service\\DDD.Domain.Service.csproj"
+              "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain.Service\\DDD.Domain.Service.csproj": {
+                "projectPath": "C:\\Users\\denis\\Documents\\Hackarrao\\hackarrao\\DDD.Domain.Service\\DDD.Domain.Service.csproj"
               }
             }
           }
@@ -292,7 +272,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

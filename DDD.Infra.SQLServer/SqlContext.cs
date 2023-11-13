@@ -32,6 +32,7 @@ namespace DDD.Infra.SQLServer
 
         public DbSet<BoletimPersistence> Boletins { get; set; }
         public DbSet<Aluno> Alunos { get; set; }
+        public DbSet<DisciplinaNota> DisciplinaNotas { get; set; }
         public DbSet<Disciplina> Disciplinas { get; set; }
         public DbSet<Matricula> Matriculas { get; set; }
         public DbSet<User> Users { get; set; }

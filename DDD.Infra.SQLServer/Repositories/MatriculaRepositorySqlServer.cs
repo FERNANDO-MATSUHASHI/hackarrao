@@ -30,7 +30,7 @@ namespace DDD.Infra.SQLServer.Repositories
 
         public List<Matricula> GetMatriculas()
         {
-            throw new NotImplementedException();
+            return _context.Matriculas.ToList();
         }
 
         public List<Matricula> GetMatriculasPorAluno(Aluno aluno)
@@ -41,7 +41,7 @@ namespace DDD.Infra.SQLServer.Repositories
 
         public Matricula InsertMatricula(int idAluno, int idDisciplina)
         {
-            var aluno = _context.Alunos .First(i => i.UserId == idAluno);
+            var aluno = _context.Alunos.First(i => i.UserId == idAluno);
             var disciplina = _context.Disciplinas.First(i => i.DisciplinaId == idDisciplina);
 
             var matricula = new Matricula

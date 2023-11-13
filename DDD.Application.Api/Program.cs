@@ -19,6 +19,8 @@ builder.Services.AddScoped<BoletimService, BoletimService>();
 builder.Services.AddScoped<ApplicationServiceBoletim, ApplicationServiceBoletim>();
 builder.Services.AddScoped<ApplicationServiceGerarRelatorio, ApplicationServiceGerarRelatorio>();
 builder.Services.AddScoped<SqlContext, SqlContext>();
+builder.Services.AddScoped<IDisciplinaNotasRepository, DisciplinaNotaRepositorySqlServer>();
+
 
 builder.Services.AddControllers().AddJsonOptions(x =>
    x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);

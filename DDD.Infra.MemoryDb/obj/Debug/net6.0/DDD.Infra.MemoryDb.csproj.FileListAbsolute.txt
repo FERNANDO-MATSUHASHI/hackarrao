@@ -15,3 +15,20 @@ C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hacka
 C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Infra.MemoryDb\obj\Debug\net6.0\refint\DDD.Infra.MemoryDb.dll
 C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.pdb
 C:\Users\noteb\OneDrive\Documentos\4º Termo\Linguagem de Programação II\hackarrao1\PlataformaUniversidadeDDD\DDD.Infra.MemoryDb\obj\Debug\net6.0\ref\DDD.Infra.MemoryDb.dll
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Infra.MemoryDb.deps.json
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Infra.MemoryDb.dll
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Infra.MemoryDb.pdb
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Domain.dll
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Infra.SQLServer.dll
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Domain.pdb
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\bin\Debug\net6.0\DDD.Infra.SQLServer.pdb
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.csproj.AssemblyReference.cache
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.AssemblyInfoInputs.cache
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.AssemblyInfo.cs
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.csproj.CoreCompileInputs.cache
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.csproj.CopyComplete
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.dll
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\refint\DDD.Infra.MemoryDb.dll
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\DDD.Infra.MemoryDb.pdb
+C:\Users\denis\Documents\Hackarrao\hackarrao\DDD.Infra.MemoryDb\obj\Debug\net6.0\ref\DDD.Infra.MemoryDb.dll

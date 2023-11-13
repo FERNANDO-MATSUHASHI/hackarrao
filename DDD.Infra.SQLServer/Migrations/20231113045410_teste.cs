@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DDD.Infra.SQLServer.Migrations
 {
     /// <inheritdoc />
-    public partial class inicio12 : Migration
+    public partial class teste : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -45,6 +45,19 @@ namespace DDD.Infra.SQLServer.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Boletins", x => x.BoletimPersistenceId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "DisciplinaNotas",
+                columns: table => new
+                {
+                    IdDisciplina = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nota = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DisciplinaNotas", x => x.IdDisciplina);
                 });
 
             migrationBuilder.CreateTable(
@@ -151,6 +164,9 @@ namespace DDD.Infra.SQLServer.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Boletins");
+
+            migrationBuilder.DropTable(
+                name: "DisciplinaNotas");
 
             migrationBuilder.DropTable(
                 name: "Matriculas");

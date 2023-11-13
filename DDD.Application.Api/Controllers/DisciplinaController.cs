@@ -10,10 +10,11 @@ namespace DDD.Application.Api.Controllers
     public class DisciplinaController : ControllerBase
     {
         readonly IDisciplinaRepository _disciplinaRepository;
-
-        public DisciplinaController(IDisciplinaRepository disciplinaRepository)
+        readonly IDisciplinaNotasRepository _disciplinaNotasRepository;
+        public DisciplinaController(IDisciplinaRepository disciplinaRepository, IDisciplinaNotasRepository disciplinaNotasRepository)
         {
             _disciplinaRepository = disciplinaRepository;
+            _disciplinaNotasRepository = disciplinaNotasRepository;
         }
 
         // GET: api/<AlunosController>
@@ -37,6 +38,18 @@ namespace DDD.Application.Api.Controllers
             _disciplinaRepository.InsertDisciplina(disciplina);
             return CreatedAtAction(nameof(GetById), new { id = disciplina.DisciplinaId }, disciplina);
         }
+        //[HttpGet]
+        //public ActionResult<List<DisciplinaNota>> GetDisciplinasNotas()
+        //{
+        //    return Ok(_disciplinaNotasRepository.GetDisciplinaNota());
+        //}
+
+        //[HttpGet("{id}")]
+        //public ActionResult<DisciplinaNota> GetDisiciplinaNotaById(int id)
+        //{
+        //    return Ok(_disciplinaNotasRepository.GetDisiciplinaNotaById(id));
+        //}
+
 
         [HttpPut]
         public ActionResult Put([FromBody] Disciplina disciplina)

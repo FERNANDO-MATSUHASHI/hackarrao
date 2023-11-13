@@ -101,6 +101,22 @@ namespace DDD.Infra.SQLServer.Migrations
                     b.ToTable("Disciplinas");
                 });
 
+            modelBuilder.Entity("DDD.Domain.SecretariaContext.DisciplinaNota", b =>
+                {
+                    b.Property<int>("IdDisciplina")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdDisciplina"));
+
+                    b.Property<decimal>("Nota")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("IdDisciplina");
+
+                    b.ToTable("DisciplinaNotas");
+                });
+
             modelBuilder.Entity("DDD.Domain.SecretariaContext.Matricula", b =>
                 {
                     b.Property<int>("MatriculaId")

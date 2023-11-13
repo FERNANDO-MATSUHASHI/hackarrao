@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DDD.Infra.SQLServer.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20231111011312_inicio12")]
-    partial class inicio12
+    [Migration("20231113045410_teste")]
+    partial class teste
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -102,6 +102,22 @@ namespace DDD.Infra.SQLServer.Migrations
                     b.HasKey("DisciplinaId");
 
                     b.ToTable("Disciplinas");
+                });
+
+            modelBuilder.Entity("DDD.Domain.SecretariaContext.DisciplinaNota", b =>
+                {
+                    b.Property<int>("IdDisciplina")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdDisciplina"));
+
+                    b.Property<decimal>("Nota")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("IdDisciplina");
+
+                    b.ToTable("DisciplinaNotas");
                 });
 
             modelBuilder.Entity("DDD.Domain.SecretariaContext.Matricula", b =>
