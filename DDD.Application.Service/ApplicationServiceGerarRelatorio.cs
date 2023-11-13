@@ -21,16 +21,16 @@ namespace DDD.Application.Service
 
         public void GerarRelatorio(bool ead)
         {
-            List<BoletimPersistence> list = new List<BoletimPersistence>();
+            List<Aluno> list = new List<Aluno>();
             list.AddRange(_gerarRelatorioService.GerarRelatorio(ead));
 
             if (list.Count > 0)
             {
                 string corpoEmail = string.Join(Environment.NewLine, list.Select(resultado =>
-                    $"ID do Aluno: {resultado.AlunoId}, ID da Disciplina: {resultado.DisciplinaId}, Notas: {resultado.Nota}"));
+                    $"email: {resultado.Email}"));
                 var client = new SmtpClient("sandbox.smtp.mailtrap.io", 2525)
                 {
-                    Credentials = new NetworkCredential("3e0bcc8ed258f2", "4d152f9fae7bc6"),
+                    Credentials = new NetworkCredential("79ae20b696d6d3", "c87b13bb1c2a8f"),
                     EnableSsl = true
                 };
                 client.Send("matsu_zf@hotmail.com", "matsu.zf@gmail.com", "Hello world", corpoEmail);
@@ -39,21 +39,8 @@ namespace DDD.Application.Service
             }
             else
             {
-                Console.WriteLine("Erro na geração do relatório ou nenhum relatório gerado.");
+                Console.WriteLine("Erro na geração do relatório", list);
             }
-
-            //_gerarRelatorioService.GerarRelatorio(ead);
-            //if (emails)
-            //{
-            //    var client = new SmtpClient("sandbox.smtp.mailtrap.io", 2525)
-            //    {
-            //        Credentials = new NetworkCredential("3e0bcc8ed258f2", "4d152f9fae7bc6"),
-            //        EnableSsl = true
-            //    };
-            //    client.Send("matsu_zf@hotmail.com", "matsu.zf@gmail.com", "Hello world", emails);
-            //    Console.WriteLine("Sent");
-            //    Console.ReadLine();
-            //}
         }
     }
 }

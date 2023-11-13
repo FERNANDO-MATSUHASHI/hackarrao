@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mV+zii8pbu1gZdbAwTTTp+LE4sh8MaI7dIQlWsmJk5q2r8SF1hODFE1tJKsIyMFnDx3ORTBRnKXDiWA8DPKBoA==",
+  "dgSpecHash": "G60j+nH015PAe83qVz0KP4juxY5SQ1y9OPflmo5iZPkhqf3k7+MjJUG9gnryq9lwXcsKhPuuA5V4Pg3tXgqMAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
+  "projectFilePath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noteb\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\noteb\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
