@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hLxr9S3F0ak9ZB9tP8tx4aKLckL8Xxltb24E2G2+zhflZox3pBBwNxLa/AF1mXLV/YKA70o2PsvPIyaA2K7JEg==",
+  "dgSpecHash": "VnBgu3+U/LJZEVtKku48YBDBY+XCAuIs5VoEUm6t7CzFb1l7BfTE+8dKyJDIxGtcr407ITiCyEGmJ1/trMaxdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Infra.MemoryDb\\DDD.Infra.MemoryDb.csproj",
+  "projectFilePath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao\\DDD.Infra.MemoryDb\\DDD.Infra.MemoryDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noteb\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\noteb\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

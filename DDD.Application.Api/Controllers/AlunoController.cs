@@ -93,5 +93,11 @@ namespace DDD.Application.Api.Controllers
 
         }
 
+        [HttpGet("Boletins")]
+        public ActionResult<List<BoletimPersistence>> GetBoletins()
+        {
+            return Ok(_alunoRepository.GetBoletins());
+        }
+
     }
 }

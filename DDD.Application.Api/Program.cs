@@ -14,6 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IAlunoRepository, AlunoRepositorySqlServer>();
 builder.Services.AddScoped<IDisciplinaRepository, DisciplinaRepositorySqlServer>();
 builder.Services.AddScoped<IMatriculaRepository, MatriculaRepositorySqlServer>();
+builder.Services.AddScoped<IGerarRelatorioRepository, GerarRelatorioRepositorySqlServer>();
+builder.Services.AddScoped<IGerarRelatorioRepository, GerarRelatorioRepositorySqlServer>();
 builder.Services.AddScoped<GerarRelatorioService, GerarRelatorioService>();
 builder.Services.AddScoped<BoletimService, BoletimService>();
 builder.Services.AddScoped<ApplicationServiceBoletim, ApplicationServiceBoletim>();

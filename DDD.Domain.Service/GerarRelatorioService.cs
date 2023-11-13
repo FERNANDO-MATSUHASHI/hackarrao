@@ -14,78 +14,33 @@ namespace DDD.Domain.Service
 {
     public class GerarRelatorioService
     {
-        readonly SqlContext _context;
-        readonly BoletimService _boletimService;
-        readonly IAlunoRepository _alunoRepository;
+        readonly IGerarRelatorioRepository _gerarRelatorioRepositorySqlServer;
 
-        public GerarRelatorioService(SqlContext context, IAlunoRepository alunoRepository, BoletimService boletimService)
+        public GerarRelatorioService(IGerarRelatorioRepository gerarRelatorioRepository)
         {
-            _alunoRepository = alunoRepository;
-            _boletimService = boletimService;
-            _context = context;
+            _gerarRelatorioRepositorySqlServer = gerarRelatorioRepository;
         }
-        public List<BoletimPersistence> GerarRelatorio(bool ead)
+        public List<Aluno> GerarRelatorio(bool ead)
         {
             List<BoletimPersistence> list = new List<BoletimPersistence>();
 
-            var boletins = _context.Boletins.Where(boletim => boletim.Nota >= 8).ToList();
+            var boletins = _gerarRelatorioRepositorySqlServer.VerifBoletin(ead);
 
-            foreach (var item in boletins)
-            {
-                BoletimPersistence boletimPersistence = new BoletimPersistence
-                {
-                    AlunoId = item.AlunoId,
-                    DisciplinaId = item.DisciplinaId,
-                    Nota = item.Nota
-                };
+            return boletins;
 
-                list.Add(boletimPersistence);
-            }
+            //foreach (var item in boletins)
+            //{
+            //    BoletimPersistence boletimPersistence = new BoletimPersistence
+            //    {
+            //        AlunoId = item.AlunoId,
+            //        DisciplinaId = item.DisciplinaId,
+            //        Nota = item.Nota
+            //    };
 
-            return list;
+            //    list.Add(boletimPersistence);
+            //}
+
+            //return list;
         }
-
-
-        //public List<BoletimPersistence> GerarRelatorio(bool ead)
-        //{
-        //    //Boletim boletim = new Boletim();
-        //    ////var aluno = _alunoRepository.GetAlunoById(idAluno);
-        //    ////var disciplinasMatriculadas = _matriculaRepository.GetMatriculasPorAluno(aluno);
-        //    //BoletimPersistence boletimPersistence = new BoletimPersistence();
-        //    //List<BoletimPersistence> list = new List<BoletimPersistence>();
-        //    //foreach (var item in )
-        //    //{
-        //    //    if (item.Nota >= 8)
-        //    //    {
-        //    //        boletimPersistence.AlunoId = item.AlunoId;
-        //    //        boletimPersistence.DisciplinaId = item.DisciplinaId;
-        //    //        boletimPersistence.Nota = item.Nota;
-        //    //        list.Add(boletimPersistence);
-        //    //    }
-        //    //}
-        //    //return list;
-
-
-
-        //    return (from boletim in _context.Boletins
-        //                      where boletim.Nota >= 8
-        //                      select boletim).ToList();
-
-
-        //    //return (from Boletim in _context.Boletins
-        //    //        join tipoViatura in _context.Tipo_Viaturas on viatura.Tipo_ViaturaId equals tipoViatura.Id
-        //    //        select new Viatura
-        //    //        {
-        //    //            sigla = viatura.sigla,
-        //    //            obs_vtr = viatura.obs_vtr,
-        //    //            Tipo_Viatura = new Tipo_Viatura
-        //    //            {
-        //    //                marca = tipoViatura.marca,
-        //    //                modelo = tipoViatura.modelo,
-        //    //                placa = tipoViatura.placa,
-        //    //                descricao = tipoViatura.descricao
-        //    //            }
-        //    //        }).ToList();
-        //}
     }
 }

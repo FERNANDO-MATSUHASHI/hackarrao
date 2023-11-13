@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CgKLS7KOsax97hTsShe91QiRYe9RSYY/OTfU00L7wW2LUrdCJDUffSwF5SmnRhg9eF3+Dacps0b8NiK+9xKu6w==",
+  "dgSpecHash": "2vVNRV4GNJSxWJIac0sI1wlZ3GL3pvREBqTXeJw4jb0RwcIpkJwtyxiFRV1SJmOlYsyaPEIsHFbuHUQsN0Q2Kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao1\\PlataformaUniversidadeDDD\\DDD.Application.Api\\DDD.Application.Api.csproj",
+  "projectFilePath": "C:\\Users\\noteb\\OneDrive\\Documentos\\4º Termo\\Linguagem de Programação II\\hackarrao\\DDD.Application.Api\\DDD.Application.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noteb\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\noteb\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
